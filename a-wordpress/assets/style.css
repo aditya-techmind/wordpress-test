@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #3a3838;
+}
+
+figure {
+    margin: 0px;
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none;
+}
+
+a {
+    color: #6b83a8;
+    text-decoration: none !important;
+    transition: 0.5s ease;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .navbar-brand img {
+    height: 35px;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #1a365f;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #d4331a;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important
+}
+
+footer {
+    background: #1a365f url(https://websitesetup.org/wp-content/uploads/2020/09/mosaic-dark-bg.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ftr-headline {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ftr-logo {
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+
+.footer-navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-navbar ul li {
+    float: left;
+    width: auto;
+}
+
+.footer-navbar ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding: 0px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+
+.footer-navbar ul li a:hover,
+.footer-navbar ul li a:focus {
+    color: #d4331a;
+}
+
+/**** ap-breadcrumbs ****/
+/**** ap-breadcrumbs ****/
+/**** ap-breadcrumbs ****/
+/**** ap-breadcrumbs ****/
+
+.ap-breadcrumbs {
+    background: #1a365f url(./images/mosaic-dark-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ap-breadcrumbs h1 {
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.ap-blogPosts {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.ap-blogPosts .box {
+    padding: 15px 15px;
+    border: 1px solid #0d315538;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.ap-blogPosts .box .hdng {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0d3155;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+}
+
+.ap-blogPosts .box .hdng:hover {
+        color: #d4331a;   
+}
+
+.ap-blogPosts .box .cntnt,
+.ap-blogPosts .box ul li{
+    font-size: 15px;
+    color: #656f8c;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.ap-blogPosts .box ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ap-blogPosts .box ul li{
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-right: 25px;
+}
+
+.ap-blogPosts .box ul li i{
+    color: #d4331a;
+}
+
+
+
+
+/**** media queries ****/
+/**** media queries ****/
+/**** media queries ****/
+
+@media screen and (max-width:576px) {
+    .footer-navbar ul li {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ap {}
